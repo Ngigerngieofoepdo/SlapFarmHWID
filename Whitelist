@@ -17,5 +17,5 @@ end
 qNVAKkuwxNpqruLjSRHg = CheckHWID(HWID)
 
 if qNVAKkuwxNpqruLjSRHg == true then
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/SlapFarmCoolUpdate/refs/heads/main/ByElgatoOnly"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/SlapFarmByGato/refs/heads/main/NewWhitelist"))()
 end
