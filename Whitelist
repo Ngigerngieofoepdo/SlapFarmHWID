@@ -1,0 +1,21 @@
+-- HWID Whitelist
+
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId();
+local WhitelistedHWIDs = {"b412583b-2c3f-4336-a259-1f4d02d4b371","",""}
+local qNVAKkuwxNpqruLjSRHg = false
+
+function CheckHWID(hwidval)
+for _,whitelisted in pairs(WhitelistedHWIDs) do
+ if hwidval == whitelisted then
+     return true
+ elseif hwidval ~= whitelisted then
+     return false
+       end
+    end
+end
+
+qNVAKkuwxNpqruLjSRHg = CheckHWID(HWID)
+
+if qNVAKkuwxNpqruLjSRHg == true then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/SlapFarmCoolUpdate/refs/heads/main/ByElgatoOnly"))()
+end
